@@ -1,3 +1,5 @@
+import token from "../../token"
+
 const onlyUnique = array => [...new Set(array)]
 
 const isForker = repos =>

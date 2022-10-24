@@ -1,0 +1,46 @@
+/*=============== CONTENT =================*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    height: 45vh;
+    width: 60vh;
+    border: solid;
+    border-radius: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+/*=============== TEXT =================*/
+
+.text{
+    background-color: white;
+    border: 1px solid rgba(31, 31, 31, 0.75);
+    font-size: 13px;
+    padding: .5vh .1vh;
+}
+
+/*=============== AVATAR =================*/
+
+.image{
+    margin-right: 7vh;
+    margin-top: -5vh;
+}
+
+img{
+    height: 20vh;
+    border-radius: 50%;
+}

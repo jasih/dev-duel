@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+    height: 45vh;
+    width: 60vh;
+    border: solid;
+    border-radius: 15px;
+}
+
+.win_con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10vh;
+}
+
+.win_con2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10vh;
+}
+
+.texts{
+    background-color: white;
+    border: 1px solid rgba(31, 31, 31, 0.75);
+    font-size: 13px;
+    padding: .5vh .1vh;
+}

@@ -1,0 +1,52 @@
+/*=============== CONTENT =================*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20vh;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*=============== BUTTON =================*/
+
+.btn{
+  background: white;
+  color: black;
+  margin: 2rem;
+  padding: 1px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.btn_con{
+  display: flex;
+  flex-direction: row;
+  padding: 12px 24px;
+}
+
+.btn_con1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10vh;
+}
+
+.btn_con2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10vh;
+}
+
+/*=============== MIDDLE LINE =================*/
+
+.mid_line:not(:last-child) {
+  border-right: 1px solid black;
+}
