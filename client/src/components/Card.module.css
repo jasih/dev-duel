@@ -21,20 +21,17 @@ li{
     font-style: normal;
     font-size: 20px;
     font-weight: 300;
-    line-height: 30px;
 }
 
 /*=============== TEXT =================*/
 
-.text{
-    background-color: white;
-    border: 1px solid rgba(31, 31, 31, 0.75);
-    font-size: 13px;
-    padding: .5vh .1vh;
-}
-
-/*=============== AVATAR =================*/
-
+.word{
+    background: #E1F1FF;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: .5vh .5vh .5vh .5vh;
+}/*=============== AVATAR =================*/
 .image{
     margin-right: 7vh;
     margin-top: -5vh;
