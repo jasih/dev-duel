@@ -10,13 +10,13 @@ const Home = () => {
     <h1>Welcome to Dev-Duel!</h1>
     <div className={style.btn_con}>
     <div className={style.btn_con1}>
-        <Link to={"/inspect"} className={style.btn}>Inspect</Link>
+        <Link to="/inspect"><button>Inspect</button></Link>
         <p>Look up a fellow dev's Github info.</p>
     </div>
     <div className={style.mid_line}>
     </div>
     <div className={style.btn_con2}>
-        <Link to={"/duel"} className={style.btn}>Duel</Link>
+        <Link to="/duel"><button>Duel</button></Link>
         <p>Pick two devs to go head to head.</p>
     </div>
     </div>
