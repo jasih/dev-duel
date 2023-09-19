@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import style from '../screens/Inspect.module.css'
+import style from '../Inspect.module.css'
 import Card from '../components/Card'
 
 const inspectUserUrl = "http://localhost:3000/api/user/";
